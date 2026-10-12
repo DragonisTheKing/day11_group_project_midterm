@@ -1,1 +1,15 @@
 /*This can be used for all pages:*/
+
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto
+}
+
+.grid-item {
+  background-color: #d1e7b1;
+  text-align: center;
+  padding: 10px;
+}
