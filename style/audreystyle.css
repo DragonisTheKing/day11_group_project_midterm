@@ -1,4 +1,8 @@
 /*This can be used for all pages if needed:*/
+body {
+  background-color: #f7f3e8;
+}
+
 
 .grid-container {
   display: grid;
@@ -7,20 +11,25 @@
 }
 
 .grid-item {
-  background-color: #d1e7b1;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
 }
 
 .title {
+  background-color: #d1e7b1;
   grid-row: 1;
   grid-column: 1 / span 3;
   padding: 70px;
 }
 
-.cool-text {
-  grid-row: 2;
+.small-header {
   grid-column: 1 / span 3;
+  background-color: #eeb4be;
+}
+
+.cool-text {
+  grid-column: 1 / span 3;
+  background-color: #d1e7b1;
 }
 
 nav ul{
