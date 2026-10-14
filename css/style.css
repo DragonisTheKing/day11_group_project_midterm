@@ -27,29 +27,6 @@ body {
     padding: 20px;
 }
 
-.nav-menu {
-    grid-area: nav;
-    padding: 20px;
-}
-
-.nav-menu ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 15px;
-    background-color:#d1e7b1;
-}
-
-
-.nav-menu a {
-    color: #cc6979;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-.nav-menu a:hover {
-    text-decoration: underline; }
 
 .main-img {
     grid-area: image;
@@ -103,14 +80,4 @@ p,
     text-align: center;
     z-index: 10;
 }
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    list-style: none;
-    margin: 0;
-    padding: 15px;
-    background-color: #555;
-}
-
     
