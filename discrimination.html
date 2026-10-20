@@ -5,26 +5,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>No Discrimination</title>
   <link rel="stylesheet" href="style/navbar.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="style/audreystyle.css">
-  <link rel="stylesheet" href="style/navbar.css">
+  <style>
+    .darkfont {
+      color: #332521;
+    }
+    .green-line {
+      background-color: #7ca159;
+      height: 5px;
+      width: 300px;
+      border: none;
+      grid-column: 1 / span 3;
+      justify-content: center;
+    }
+    .pink-line {
+      background-color: #cc6979;
+      height: 5px;
+      width: 300px;
+      border: none;
+      grid-column: 1 / span 3;
+      justify-content: center;
+    }
+    .text1 {
+      grid-row: 3;
+      grid-column: 2 / span 2;
+      text-align: right;
+      display: flex;
+      align-items: center;
+    }
+    .text2 {
+      grid-row: 4;
+      grid-column: 1 / span 2;
+      text-align: left;
+      align-items: center;
+    }
+    .text3 {
+      grid-row: 6;
+      grid-column: 1 / span 3;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      background-color:#cc6979;
+      color:#d1e7b1;
+    }
+    .titleimage {
+      background-image: linear-gradient(rgba(209, 231, 177, 0.6)), url(images/peopletogether.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="friends.html">Respecting Others</a></li>
-            <li><a href="boundaries.html">Respecting Boundaries</a></li>
-            <li><a class="active" href="discrimination.html">No Discrimination</a></li>
-            <li><a href="environment.html">The Environment</a></li>
-            <li><a href="cafeteria.html">Cafeteria Rules</a></li>
-        </ul>
-    </nav>
-  <div class="grid-container">
-    <h1 class="grid-item title">No Discrimination</h1>
-    <h3 class="grid-item small-header" style="grid-row: 2;">Discrimination</h3>
-    <p class="grid-item cool-text" style="grid-row: 3; grid-column: 1 / span 3;">text</p>
+  <nav>
+      <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="friends.html">Respecting Others</a></li>
+          <li><a href="boundaries.html">Respecting Boundaries</a></li>
+          <li><a class="active" href="discrimination.html">No Discrimination</a></li>
+          <li><a href="environment.html">The Environment</a></li>
+          <li><a href="cafeteria.html">Cafeteria Rules</a></li>
+      </ul>
+  </nav>
+
+
+  <div class="grid-container darkfont">
+    <h1 class="grid-item title titleimage">No Discrimination</h1>
+
+    <hr class="green-line">
+
+
+    <div class="grid-item darkgreen" style="grid-row: 3; grid-column: 1;">
+      <img src="images/genderdiscrimination.jpg" style="max-height: 150px;">
+    </div>
+
+    <p class="grid-item cool-text text1">Discrimination is the act, practice, or unfair treatment of a person or group based on a class or categorical basis (such as race, religion, gender, or sexual orientation). </p>
+    
+
+    <div class="grid-item darkgreen" style="grid-row: 4; grid-column: 3;">
+      <img src="images/discrimination.jpg" style="max-height: 150px;">
+    </div>
+
+    <div class="grid-item cool-text text2">
+      <p>Discrimination at school is very bad. It can lead to:</p>
+      <ul>
+        <li>Lower academic engagement</li>
+        <li>Trauma and stress</li>
+        <li>Alienation</li>
+        <li>Higher dropout risk</li>
+        <li>And more...</li>
+      </ul>
+    </div>
+
+    <hr class="green-line">
+
+    <div class="grid-item cool-text text3">
+      <p>Unfortunately, discrimination still exists in schools, so if you encounter any forms of discrimination, please find a way to confront or report it, and document the incident if necessary. If you see someone who is lonely or targeted, invite them to join your group or to hang out. If you are being bullied because of your identity, talk to a trusted adult about what to do.</p>
+    </div>
+
+  <hr class="green-line">
+
+  <div class="grid-item" style="grid-row: 8; grid-column: 1 / span 3">
+    <h3>Here is a simple video about racism, which is a form of discrimination:</h3>
+    <iframe width="509.5" height="286.5" src="https://www.youtube.com/embed/G2BxDpZu_N8" title="Gary Learns About Racism | Anti-Racism | CBC Kids" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 
   </div>
+  <footer class="footer">
+    Don't discriminate against people
+  </footer>
 
 </body>
 </html>
