@@ -7,6 +7,78 @@
   <link rel="stylesheet" href="style/navbar.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="style/audreystyle.css">
+  <style>
+    .darkfont {
+      color: #332521;
+    }
+    .green-line {
+      background-color: #7ca159;
+      height: 5px;
+      width: 300px;
+      border: none;
+      grid-column: 1 / span 3;
+      justify-content: center;
+    }
+    .pink-line {
+      background-color: #cc6979;
+      height: 5px;
+      width: 300px;
+      border: none;
+      grid-column: 1 / span 3;
+      justify-content: center;
+    }
+    .text1 {
+      grid-row: 3;
+      grid-column: 1 / span 2;
+      text-align: left;
+      display: flex;
+      align-items: center;
+    }
+    .text2 {
+      grid-row: 4;
+      grid-column: 2 / span 2;
+      display: flex;
+      text-align: right;
+      align-items: center;
+    }
+    .text3 {
+      grid-row: 5;
+      grid-column: 1 / span 2;
+      display: block;
+      text-align: left;
+      align-items: center;
+    }
+    .text4 {
+      grid-row: 7;
+      grid-column: 1 / span 3;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      background-color:#7ca159;
+      color:#eeb4be;
+    }
+    .linktext {
+      grid-row: 9;
+      grid-column: 1 / span 3;
+      background-color:#d1e7b1;
+      color:#332521;
+    }
+    .titleimage {
+      background-image: linear-gradient(rgba(238, 180, 190, 0.6)), url(images/boundaryword.jpg); /*NEW!! The translucent image with color overlay is new*/
+      background-size: cover;
+      background-position: center;
+    }
+    .cool-text {
+    background-color:#eeb4be;
+    }
+    .darkpink {
+    background-color:#cc6979;
+    }
+    .border { /*NEW!! These dotted borders with the 6.7px border widths are new*/
+      border-style: dotted; 
+      border-width: 6.7px;
+    }
+  </style>
 </head>
 <body>
     <nav>
@@ -19,13 +91,61 @@
             <li><a href="cafeteria.html">Cafeteria Rules</a></li>
         </ul>
     </nav>
+
   <div class="grid-container darkfont">
-    <h1 class="grid-item title">Respectful Boundaries</h1>
-    <h3 class="grid-item pink" style="grid-row: 2; grid-column: 1 / span 3;">Importance of Boundaries</h3>
-    <p class="grid-item cool-text" style="grid-row: 3; grid-column: 1 / span 3;">text</p>
+    <h1 class="grid-item title titleimage">Respectful Boundaries</h1>
+
+    <hr class="green-line" style="grid-row: 2;">
+
+    <div class="grid-item darkpink" style="grid-row: 3; grid-column: 3;">
+      <img src="images/boundarycircles.jpg" style="max-height: 150px;">
+    </div>
+
+    <p class="grid-item cool-text text1">A person's boundaries are a person's limits that define how they feel safe, comfortable, and respected physically, emotionally, mentaly, etc.</p>
+    
+
+    <div class="grid-item darkpink" style="grid-row: 4; grid-column: 1;">
+      <img src="images/boundarymarker.jpg" style="max-height: 160px;">
+    </div>
+
+    <div class="grid-item cool-text text2">
+      <p>Consent is an important part of a person's boundaries. Everyone must agree to what is happening in order for boundaries to not be crossed. Consent can not be given by someone else, and cannot be gotten from threatening, manipulation, force, etc. Body language can also play a role in what people really think about something that might cross their boundaries.</p>
+    </div>
+
+    <div class="grid-item darkpink" style="grid-row: 5; grid-column: 3; display: flex; align-items: center;justify-content: center;">
+      <img src="images/paintboundary.jpeg" style="max-height: 230px;">
+    </div>
+
+    <div class="grid-item cool-text text3">
+      <p>There are many types of boundaries:</p>
+      <ul>
+        <li>Physical boundaries - personal space, consent (for physical touch), physical needs (like food or water)</li>
+        <li>Emotional boundaries - needing to step away when feeling overwhelmed</li>
+        <li>Mental boundaries - having your opinions and beliefs respected</li>
+        <li>Material Boundaries - controlling the use of your personal possessions</li>
+        <li>Time Boundaries - protect how you spend your time so that some things don't take up too muc time and make you burnout</li>
+        <li>And more</li>
+      </ul>
+      <p>It is important to be aware of all the boundaries that someone may have.</p>
+    </div>
+
+    <hr class="green-line" style="grid-row: 6;">
+
+    <div class="grid-item text4 border">
+      <p>Boundaries are an extremely important part of human life, as it defines acceptable behavior and protects our well-being in all aspects. Boundaries improve mental health, builds trust between people, and strenghtens self-esteem. Remember that a violation of your boundaries without consent is unacceptable. Sometimes, just talking it out with the person who overstepped fixes the situation, but if that doesn't stop the unwelcome behavior, then seek a trusted adult. After all, EPS strives to be a inclusive community, and your well-being is very important to all of us.</p>
+    </div>
+
+    <hr class="green-line" style="grid-row: 8;">
+
+    <div class="linktext">
+      <p style="text-align: center;">Learn some more about boundaries <a style="color: #332521;" href="https://www.unconditionallearning.org/blog/ways-to-say-no" target="_blank">here</a>.</p>
+    </div>
+
   </div>
+
+  
   <footer class="footer">
-    Respect people's boundaries
+    Respect people's boundaries - Audrey
   </footer>
 </body>
 </html>
